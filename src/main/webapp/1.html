@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>任务处理</title>
+</head>
+<body>
+<div style="width:1000px;">
+	<input type="text" id="startAssignee">
+	<button type="button" onclick="startProcess()">启动流程</button>
+	<br>
+	<input type="text" id="assignee">
+	<button type="button" onclick="findMyTask()">查询</button>
+	<table id="myTask" border="1" cellpadding="0" cellspacing="0">
+		<tr>
+			<th>TaskId</th>
+			<th>任务名称</th>
+			<th>任务的创建时间</th>
+			<th>任务的办理人</th>
+			<th>流程实例ID</th>
+			<th>执行对象ID</th>
+			<th>操作</th>
+		</tr>
+	</table>
+</div>
+<div id="imgDiv" style="width:1000px;height:200px;float:right">
+
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/1.js"></script>
+
+</html>
